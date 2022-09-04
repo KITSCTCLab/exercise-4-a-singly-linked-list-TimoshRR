@@ -57,11 +57,11 @@ class Solution:
         j = string(second_list.head)
         
         listy=[]
-        for x in list(str(int(z))+int(j))[::-1]):
+        for x in list(str(int(z)+int(j))[::-1]):
             listy.append(int(x))
         return listy
     
-     def status(self):
+     def status(self,listt):
         """
         It prints all the elements of list.
         """
