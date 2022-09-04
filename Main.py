@@ -61,12 +61,12 @@ class Solution:
             listy.append(int(x))
         return listy
     
-     def status(self,listt):
+    def status(self,listt):
         """
         It prints all the elements of list.
         """
         # write code here
-       print(listt)
+        print(listt)
         
 
 # Do not edit the following code      
